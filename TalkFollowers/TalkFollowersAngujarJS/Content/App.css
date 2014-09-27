@@ -1,0 +1,410 @@
+﻿/* Inserte estilos personalizados debajo */
+.mention
+{
+    font-weight:bold;
+}
+/*********************************************************************************************************************************
+***** CompartiMOSS - MagazineNumber
+*********************************************************************************************************************************/
+.divCompartiMOSSMagazineNumber
+{
+    position: relative;
+    display: inline-block;
+    width: 266px;
+    height: 350px;
+    overflow: hidden;
+    margin: 5px;
+/*    margin: 10px;*/
+/*    box-shadow: 0px 5px 10px #303030;*/
+}
+
+.divCompartiMOSSMagazineNumber .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.divCompartiMOSSMagazineNumber .divPicture a {
+    display: block;
+    height: 350px;
+}
+
+.divCompartiMOSSMagazineNumber .divPicture img {
+    width: 266px;
+    max-width: 266px;
+    height: 350px;
+    max-height: 350px;
+}
+
+.divCompartiMOSSMagazineNumber a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 300px;
+    left: 0;
+    height: 350px;
+    width: 266px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    /*AZUL*//*background-color: rgba(0, 65, 145, 0.8);*/
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.85);
+    color: #fff;
+    font-size: 11px;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 340px;
+    padding: 5px 10px;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay ,
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - Author
+*********************************************************************************************************************************/
+.divCompartiMOSSAuthor
+{
+    position: relative;
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+}
+
+.divCompartiMOSSAuthor .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.divCompartiMOSSAuthor .divPicture a {
+    display: block;
+    height: 175px;
+}
+
+.divCompartiMOSSAuthor .divPicture img {
+    width: 175px;
+    max-width: 175px;
+    height: 175px;
+    max-height: 175px;
+}
+
+.divCompartiMOSSAuthor a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divCompartiMOSSAuthor .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 155px;
+    left: 0;
+    height: 175px;
+    width: 175px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    background-color: rgba(0, 65, 145, 0.8);
+    /*ROJO background-color: rgba(249, 11, 57, 0.85);*/
+    color: #fff;
+    font-size: 11px;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 175px;
+    padding: 5px 10px;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay ,
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - Author
+*********************************************************************************************************************************/
+.divCompartiMOSSFollow
+{
+    position: relative;
+    display: inline-block;
+    width:300px;
+    height:300px;
+    overflow: hidden;
+}
+.divFollowerAuthor
+{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.divFollowersAuthor .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.divFollowerAuthor .divPicture a {
+    display: block;
+    height: 50px;
+}
+
+.divFollowerAuthor .divPicture img {
+    width: 50px;
+    max-width: 50px;
+    height: 50px;
+    max-height: 50px;
+}
+
+.divFollowerAuthor a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divFollowerAuthor .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 145px;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    background-color: rgba(0, 65, 145, 0.8);
+    /*ROJO background-color: rgba(249, 11, 57, 0.85);*/
+    color: #fff;
+    font-size: 11px;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divFollowerAuthor .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 50px;
+    padding: 5px 10px;
+}
+
+.divFollowerAuthor .divOverlay a.linkOverlay ,
+.divFollowerAuthor .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divFollowerAuthor .divOverlay a.linkOverlay H2 {
+    font-weight:300;
+    font-size: 15px;
+}
+
+
+.izquierda
+{
+   float:left;
+   width:200px;
+
+
+}
+.derecha
+{
+   width:200px;
+   float:right;
+}
+
+.centro
+{  float:left;
+  
+   width:475px;
+}
+
+.btnUpdate
+{
+    float:right;
+}
+.btnResponse
+{
+    float:right;
+}
+.imagen
+{
+    float:left;
+}
+
+.Nombre
+{
+    font: bold !important;
+    padding-left:80px;
+}
+
+.texto{
+    padding-left:80px;
+}
+
+.Like{
+        padding-left:80px;
+}
+.opciones{
+        padding-left:80px;
+}
+
+.contestacion
+{
+    width:500px;
+    float:left;     
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color: rgb(232, 232, 232);
+    padding-top:15px;
+}
+
+.respuesta
+{
+    width:428px;
+    float:left;
+    margin-left:74px;    
+      border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color: rgb(232, 232, 232);
+    background-color:#f5f5f5;
+    
+}
+
+.respuesta2
+{
+    width:352px;
+    float:left;
+    margin-left:148px;        
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color: rgb(232, 232, 232);
+    background-color:#f5f5f5;
+}
+
+.options
+{
+  
+      margin-top:10px;
+}
+
+a:visited
+{
+    color:#0072c6;
+}
+
+.status
+{
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color: rgb(232, 232, 232);
+}
+
+.Menu a:link { color:gray; text-decoration: none }
+/*.Menu a:active { color: red; text-decoration: none }
+.Menu a:visited { color: blue; text-decoration: none }*/
+.Menu a:hover { text-decoration: underline }
+.selected { color: #0072c6 !important;  }
+.unselected { color: gray !important;  }
+
+.Menu
+{
+    padding-top:10px;
+    margin-top:10px;
+}
+.like img
+{
+    margin-right:5px;
+    margin-left:5px;
+}
+
+.time
+{
+    margin-right:5px;
+    margin-left:5px;
+}
+
+                .tag-image {
+                    width: auto;
+                    height: 18px;
+                    margin-right: 5px;
+                    vertical-align: top;
+                }
+                #customers-list .k-item {
+                    overflow: hidden; /* clear floated images */
+                }
+                #customers-list img {
+                    -moz-box-shadow: 0 0 2px rgba(0,0,0,.4);
+                    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.4);
+                    box-shadow: 0 0 2px rgba(0,0,0,.4);
+                    float: left;
+                    margin: 5px 20px 5px 0;
+                }
+                #customers-list h3 {
+                    margin: 30px 0 10px 0;
+                    font-size: 2em;
+                }
+                #customers-list p {
+                    margin: 0;
+                }
+
+                 .thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+
+#divArticleTags > span {
+display: inline-block;
+margin-top: 5px;
+padding: 5px;
+padding-left: 25px;
+background: rgba(0, 65, 145, 0.8)  url('../Images/tag.png') no-repeat 5px center;
+color: #fff;
+margin-bottom:10px;
+}

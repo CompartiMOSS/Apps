@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="e1c97c80-c23b-40a0-af1e-3d35523deac2" 
+        solutionId="e1c97c80-c23b-40a0-af1e-3d35523deac2" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="TalkFollowersAngujarJS"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="f12d1c59-cd9a-4c80-a7e7-f8a386061dd7" />
+  </features>
+</package>

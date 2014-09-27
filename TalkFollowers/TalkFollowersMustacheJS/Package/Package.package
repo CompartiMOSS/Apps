@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="f0b34e43-21ec-463c-9624-7eaa4411ff16" 
+        solutionId="f0b34e43-21ec-463c-9624-7eaa4411ff16" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="TalkFollowersMustacheJS"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="2d05fd7b-798b-4b12-83e8-f2bfa779f9c4" />
+  </features>
+</package>

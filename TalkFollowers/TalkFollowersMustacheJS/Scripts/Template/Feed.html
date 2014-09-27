@@ -1,0 +1,46 @@
+﻿ <!--{{#wall}}-->
+<div >
+    <div class='MyFeed'>
+        <div class='contestacion'>
+            <div class='imagen'><img width='72px' height='72px' src='{{imageUri}}' alt="Imagen Feed" /> </div>
+            <div class='todo'>
+                <div class='Nombre'><strong>{{owner}}</strong></div>
+                <div class='texto'>{{text}}</div>
+                <div class='like'><img src="../Images/MeGusta.jpg" width="15px" height="15px" alt="" />{{totalCount}}</div>
+                <div class="opciones">
+                    <a href="#"  onclick="likePost('{{id}}','{{like}}');"> {{like}}</a>
+                    <a href="#" onclick="showComent('{{numero}}');"> Comentar </a> {{time}}                    
+                </div>
+                <!--{{#tags}}-->
+                <div id='divArticleTags' >
+                    <span> {{.}} </span>
+                </div>
+                <!--{{/tags}}-->
+            </div>
+            <!--{{#respuesta}}-->
+            <div >
+                <div class="respuesta">
+                    <div class="imagen"><img width="72px" alt="" height="72px" src="{{imageUriResponse}}" /> </div>
+                    <div class="todo">
+                        <div class="Nombre">{{name}} </div>
+                        <div class="texto">{{text}}</div>
+                        <div class='like'><img src="../Images/MeGusta.jpg" width="15px" height="15px" alt="" />{{totalCount}}</div>
+                        <div class="opciones">                            
+                            <a href="#" onclick="likePost('{{id}}','{{like}}');"> {{like}}</a>
+                            <a href="#" onclick="showComent('{{numero}}');"> Comentar </a> {{time}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--{{/respuesta}}-->
+        </div>
+        <div class="respuesta{{numero}}"  style="display:none">
+            <div class="imagen"><img width="72px" height="72px" src='{{imageUri}}' alt=""> </div>
+            <div class="todo">
+                <textarea style="width:340px" rows="2" cols="40" class="k-textbox" placeholder='Contestacion'></textarea>
+                <div class="btnResponse"><input id="{{numero}}" type="button" onclick="reponsePost('{{id}}','{{numero}}');" value="Responder" /></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--{{/wall}}-->

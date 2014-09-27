@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="2988c13a-00a6-4571-b055-f2f82b4a0d66" 
+        solutionId="2988c13a-00a6-4571-b055-f2f82b4a0d66" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="TalkFollowers"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="c863acdd-a3c2-4b69-af8f-bb229dd0b7ce" />
+  </features>
+</package>
